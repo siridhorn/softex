@@ -2878,6 +2878,7 @@ figcaption {
 }
 
 .image-27 {
+  width: 89%;
   min-width: 100%;
   margin-left: 0;
   padding-left: 100px;
@@ -2891,6 +2892,7 @@ figcaption {
   margin-bottom: 46px;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 34px;
   display: block;
 }
 
@@ -2997,6 +2999,11 @@ figcaption {
   display: flex;
 }
 
+.container-16 {
+  width: 87%;
+  max-width: 933px;
+}
+
 @media screen and (min-width: 1280px) {
   .hero-bg {
     background-position: 50% 100%;
@@ -3071,8 +3078,14 @@ figcaption {
     padding-right: 11px;
   }
 
+  .image-27 {
+    text-align: center;
+    width: 893px;
+    min-width: 90%;
+  }
+
   .image-29 {
-    min-width: 80%;
+    min-width: 63%;
     max-width: 100%;
     min-height: 100%;
     max-height: 100%;
@@ -3084,10 +3097,25 @@ figcaption {
   }
 
   .image-30 {
-    min-width: 80%;
+    min-width: 63%;
     max-width: 100%;
     min-height: 100%;
     max-height: 100%;
+  }
+
+  .container-16 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container-17 {
+    margin-bottom: 58px;
+  }
+
+  .section-5 {
+    margin-top: 32px;
+    margin-bottom: 25px;
   }
 }
 
@@ -3244,6 +3272,8 @@ figcaption {
 
   .container {
     max-width: 728px;
+    margin-top: 0;
+    padding-top: 69px;
   }
 
   .hero-wrapper {
@@ -4106,6 +4136,7 @@ figcaption {
   }
 
   .who-should-join {
+    margin-top: 15px;
     display: block;
   }
 
@@ -4518,6 +4549,7 @@ figcaption {
   }
 
   .image-27 {
+    width: 97%;
     padding-left: 0;
     padding-right: 0;
   }
@@ -4532,6 +4564,7 @@ figcaption {
   }
 
   .container-11 {
+    margin-top: 48px;
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -4615,6 +4648,10 @@ figcaption {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .container-16 {
+    width: 100%;
   }
 }
 
