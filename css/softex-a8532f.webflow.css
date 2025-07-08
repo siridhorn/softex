@@ -16,7 +16,7 @@
 
 :root {
   --900: #101211;
-  --100: white;
+  --100: #fff;
   --accent-light: #fff0d1;
   --400: #dbdbdb;
   --700: #202221;
@@ -25,7 +25,7 @@
   --800: #171918;
   --accent: #ff5100;
   --200: #f7f7f7;
-  --accent-medium: #ffda8f;
+  --ใส: #fff0;
 }
 
 .w-layout-blockcontainer {
@@ -577,7 +577,7 @@ figcaption {
   color: var(--accent);
   text-align: center;
   letter-spacing: -.02em;
-  margin-top: 1.9rem;
+  margin-top: 3.3rem;
   margin-bottom: 2.7rem;
   font-family: Poppins, sans-serif;
   font-size: 2.4rem;
@@ -1309,7 +1309,7 @@ figcaption {
 }
 
 .text-link {
-  color: var(--accent-medium);
+  color: var(--ใส);
   font-size: .875rem;
 }
 
@@ -1537,7 +1537,7 @@ figcaption {
 }
 
 .background-color-accent-medium {
-  background-color: var(--accent-medium);
+  background-color: var(--ใส);
 }
 
 .background-color-accent-light {
@@ -1653,7 +1653,7 @@ figcaption {
   background-color: #fff;
   border-bottom: 1px solid #e4ebf3;
   border-radius: 20px;
-  padding: 0 30px 17px;
+  padding: 9px 30px 17px;
   position: relative;
 }
 
@@ -2829,7 +2829,7 @@ figcaption {
 }
 
 .text-span {
-  color: var(--accent);
+  color: var(--100);
 }
 
 .image-19 {
@@ -2958,7 +2958,7 @@ figcaption {
   min-height: auto;
   max-height: none;
   margin-top: 39px;
-  padding-top: 30px;
+  padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
   display: flex;
@@ -3171,9 +3171,9 @@ figcaption {
 }
 
 .heading-11 {
-  color: var(--900);
+  color: var(--accent);
   text-align: center;
-  margin-top: 1.9rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
   font-family: Poppins, sans-serif;
   font-size: 2.5rem;
@@ -3184,10 +3184,51 @@ figcaption {
   margin-left: 0;
 }
 
+.image-88, .image-89 {
+  width: 350px;
+  max-width: 518px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.image-90 {
+  margin-left: 0;
+}
+
+.container-20 {
+  padding-top: 19px;
+}
+
+.div-block-17 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.section-7 {
+  padding-top: 54px;
+}
+
 @media screen and (min-width: 1280px) {
+  .hero-heading-center {
+    padding-top: 71px;
+  }
+
   .hero-bg {
     background-position: 50% 100%;
     background-size: cover;
+  }
+
+  .heading-11 {
+    margin-top: 0;
+  }
+
+  .image-88, .image-89 {
+    width: 350px;
+    max-width: 518px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -3446,6 +3487,13 @@ figcaption {
     padding-bottom: 0;
     font-family: Poppins, sans-serif;
     font-weight: 700;
+  }
+
+  .image-88, .image-89 {
+    width: 350px;
+    max-width: 518px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -3714,6 +3762,18 @@ figcaption {
     display: none;
   }
 
+  .navbar-2 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .nav-link-text {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
   .sub-heading {
     text-align: left;
   }
@@ -3777,6 +3837,11 @@ figcaption {
     display: none;
   }
 
+  .icon-25 {
+    color: var(--900);
+    background-color: #0000;
+  }
+
   .container-8, .container-9 {
     max-width: 728px;
   }
@@ -3789,6 +3854,11 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .image-26 {
+    padding-left: 140px;
+    padding-right: 140px;
   }
 
   .container-12 {
@@ -3828,6 +3898,14 @@ figcaption {
     justify-content: center;
     align-items: flex-start;
     display: flex;
+  }
+
+  .image-88 {
+    padding-top: 17px;
+  }
+
+  .image-90 {
+    margin-left: 0;
   }
 }
 
@@ -3975,6 +4053,10 @@ figcaption {
     padding: 60px 15px;
   }
 
+  .container {
+    width: auto;
+  }
+
   .hero-split {
     justify-content: center;
     align-items: center;
@@ -4028,6 +4110,10 @@ figcaption {
   .hero-container {
     text-align: center;
     padding: 73px 20px 60px;
+  }
+
+  .image-7 {
+    margin-left: 11px;
   }
 
   .main-heading-2 {
@@ -4091,8 +4177,16 @@ figcaption {
     font-size: 18px;
   }
 
+  .paragraph-5 {
+    text-align: center;
+  }
+
   .card-container {
     justify-content: center;
+  }
+
+  .card-item-container-gr-v2 {
+    padding-left: 0;
   }
 
   .container-cta {
@@ -4149,8 +4243,38 @@ figcaption {
     padding-right: 0;
   }
 
+  .image-26 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .container-11 {
+    flex-flow: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+  }
+
   .container-12 {
-    flex-flow: row;
+    flex-flow: column;
+  }
+
+  .container-17 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .section-5 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
   .div-block-15 {
@@ -4159,6 +4283,22 @@ figcaption {
     max-width: 100%;
     height: 100%;
     max-height: 100%;
+  }
+
+  .heading-10 {
+    text-align: center;
+  }
+
+  .image-89 {
+    padding-bottom: 42px;
+  }
+
+  .image-90 {
+    margin-left: 0;
+  }
+
+  .container-21 {
+    padding-top: 49px;
   }
 }
 
@@ -4357,8 +4497,10 @@ figcaption {
   }
 
   .card-list {
+    flex-flow: column;
     grid-template-columns: 1fr;
     place-items: stretch start;
+    display: flex;
   }
 
   .card-item {
@@ -4546,6 +4688,7 @@ figcaption {
 
   .container-2 {
     max-width: none;
+    padding-top: 7px;
   }
 
   .hero-form {
@@ -4565,7 +4708,8 @@ figcaption {
   }
 
   .who-should-join {
-    margin-top: 15px;
+    background-color: var(--ใส);
+    margin-top: 0;
     margin-left: 20px;
     margin-right: 20px;
     display: block;
@@ -4692,6 +4836,8 @@ figcaption {
   }
 
   .heading-3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
     font-size: 2rem;
   }
 
@@ -4754,6 +4900,8 @@ figcaption {
     align-items: center;
     margin-left: 0;
     margin-right: 0;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
   }
 
@@ -5021,8 +5169,11 @@ figcaption {
   }
 
   .container-11 {
-    margin: 15px 30px 0;
+    min-width: auto;
+    margin: 15px 0 0;
     padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .image-29 {
@@ -5114,6 +5265,10 @@ figcaption {
 
   .container-16 {
     width: 100%;
+  }
+
+  .section-5 {
+    padding-top: 30px;
   }
 
   .image-46, .image-47, .image-48 {
@@ -5317,6 +5472,11 @@ figcaption {
     padding-top: 28px;
   }
 
+  .heading-11 {
+    color: var(--accent);
+    line-height: 1.2;
+  }
+
   .image-84, .image-85, .image-86, .image-87 {
     margin-left: 0;
     padding-left: 20px;
@@ -5325,6 +5485,7 @@ figcaption {
 
   .image-88 {
     margin-left: 0;
+    margin-right: 0;
     padding-top: 16px;
     padding-left: 20px;
     padding-right: 20px;
@@ -5332,8 +5493,28 @@ figcaption {
 
   .image-89 {
     margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .container-20 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+  }
+
+  .container-21 {
+    padding-top: 3px;
+  }
+
+  .text-span-3 {
+    color: #fff;
   }
 }
 
