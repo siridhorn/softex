@@ -3407,7 +3407,7 @@ figcaption {
 .container-23 {
   justify-content: center;
   align-items: center;
-  width: 471px;
+  width: auto;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -4227,6 +4227,16 @@ figcaption {
     padding: 100px 10px;
   }
 
+  .nav-link-2.regis-button {
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    max-width: 200px;
+    display: flex;
+  }
+
   .main-heading-2 {
     text-align: center;
   }
@@ -4251,6 +4261,7 @@ figcaption {
   }
 
   .nav-link-text {
+    margin-left: 0;
     padding-left: 140px;
     padding-right: 140px;
   }
@@ -4342,6 +4353,13 @@ figcaption {
     padding-right: 140px;
   }
 
+  .container-10 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .container-12 {
     flex-flow: column;
     justify-content: center;
@@ -4403,6 +4421,7 @@ figcaption {
 
   .container-23 {
     max-width: 728px;
+    padding-top: 17px;
   }
 
   .testimonial-slider-left-2 {
@@ -4411,6 +4430,13 @@ figcaption {
 
   .testimonial-slider-right-2 {
     right: -20px;
+  }
+
+  .container-24 {
+    flex-flow: column;
+    width: auto;
+    max-width: none;
+    padding-top: 0;
   }
 
   .container-26 {
@@ -4427,6 +4453,7 @@ figcaption {
   }
 
   .shadow-two-3 {
+    margin-left: 0;
     padding-left: 0;
   }
 }
@@ -4818,6 +4845,10 @@ figcaption {
 
   .image-90 {
     margin-left: 0;
+  }
+
+  .container-20 {
+    width: auto;
   }
 
   .container-21 {
