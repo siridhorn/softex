@@ -1677,7 +1677,7 @@ figcaption {
   padding-top: 29px;
   padding-left: 60px;
   padding-right: 60px;
-  display: flex;
+  display: none;
 }
 
 .centered-heading {
@@ -2562,6 +2562,7 @@ figcaption {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: 400;
+  display: none;
   overflow: hidden;
 }
 
@@ -3652,6 +3653,11 @@ figcaption {
 .section-8 {
   margin-top: 24px;
   padding-top: 0;
+}
+
+.bold-text-8 {
+  font-family: IBM Plex Sans Thai, sans-serif;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5622,6 +5628,7 @@ figcaption {
     letter-spacing: -.02em;
     padding-left: 7px;
     padding-right: 7px;
+    font-family: IBM Plex Sans Thai, sans-serif;
   }
 
   .icon-25 {
@@ -5955,7 +5962,8 @@ figcaption {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 2.1rem;
+    margin-top: 0;
+    padding-top: 0;
     padding-left: 20px;
     padding-right: 20px;
     font-family: IBM Plex Sans Thai, sans-serif;
