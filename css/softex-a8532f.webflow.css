@@ -2167,10 +2167,12 @@ figcaption {
   width: 171px;
   margin-top: -9px;
   margin-left: -5px;
+  padding-bottom: 0;
   padding-right: 44px;
 }
 
 .brand {
+  margin-bottom: -29px;
   padding: 15px 0;
   top: 5px;
 }
@@ -2733,7 +2735,7 @@ figcaption {
   align-items: center;
   width: 100%;
   max-width: 940px;
-  margin-bottom: 12px;
+  margin-bottom: -1px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -2912,10 +2914,12 @@ figcaption {
   align-items: center;
   min-width: 79%;
   margin-top: 22px;
-  margin-bottom: 22px;
+  margin-bottom: 29px;
   margin-left: 0;
   padding-left: 192px;
   padding-right: 192px;
+  font-size: 1rem;
+  line-height: 28;
   display: inline-flex;
 }
 
@@ -3713,6 +3717,17 @@ figcaption {
   width: 512px;
   margin-top: 22px;
   margin-left: 0;
+}
+
+.container-29 {
+  flex: 0 auto;
+  margin-top: -46px;
+  margin-bottom: -55px;
+}
+
+.image-106 {
+  width: 145px;
+  margin-bottom: 13px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5898,6 +5913,8 @@ figcaption {
   }
 
   .image-26 {
+    margin-top: 32px;
+    margin-bottom: 39px;
     padding-left: 10px;
     padding-right: 10px;
     display: block;
@@ -6225,16 +6242,10 @@ figcaption {
     line-height: 1.2;
   }
 
-  .image-84, .image-85, .image-86 {
+  .image-84, .image-85, .image-86, .image-87 {
     margin-left: 0;
     padding-left: 20px;
     padding-right: 10px;
-  }
-
-  .image-87 {
-    margin-left: 0;
-    padding-left: 30px;
-    padding-right: 0;
   }
 
   .image-88 {
@@ -6472,11 +6483,15 @@ figcaption {
     padding-left: 20px;
     padding-right: 10px;
   }
-}
 
-#w-node-_609048c2-86b2-8ddf-2beb-da91b511acf7-4cd689d4 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  place-self: center start;
+  .image-106 {
+    margin-bottom: -3px;
+    padding-top: 0;
+  }
+
+  .container-30 {
+    margin-bottom: -24px;
+  }
 }
 
 #w-node-_18a44621-4c6b-1dad-b75d-b9342c86fbf6-4cd689d4, #w-node-_18a44621-4c6b-1dad-b75d-b9342c86fbff-4cd689d4, #w-node-_18a44621-4c6b-1dad-b75d-b9342c86fc07-4cd689d4, #w-node-_18a44621-4c6b-1dad-b75d-b9342c86fc0f-4cd689d4, #w-node-_38b0c822-d461-462b-1c1c-a21843151502-4cd689d4, #w-node-_3205ed5b-bb9a-0191-87a4-8c8e02aa37f1-4cd689d4, #w-node-c8253fb7-a37a-f1b7-0c88-04be10e15d00-4cd689d8, #w-node-_4ee1287b-929c-4ded-cbd8-2f85583b04bc-4cd689d8, #w-node-c8253fb7-a37a-f1b7-0c88-04be10e15d00-4cd689d9 {
