@@ -2735,7 +2735,7 @@ figcaption {
   align-items: center;
   width: 100%;
   max-width: 940px;
-  margin-bottom: -1px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -2894,6 +2894,7 @@ figcaption {
 .image-21 {
   width: auto;
   max-width: 150px;
+  margin-bottom: 10px;
   margin-left: 0;
 }
 
@@ -2913,8 +2914,8 @@ figcaption {
   justify-content: center;
   align-items: center;
   min-width: 79%;
-  margin-top: 22px;
-  margin-bottom: 29px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   margin-left: 0;
   padding-left: 192px;
   padding-right: 192px;
@@ -3686,7 +3687,7 @@ figcaption {
 
 .image-95 {
   width: 400px;
-  margin-left: 10px;
+  margin-left: 2px;
   margin-right: 10px;
 }
 
@@ -3721,13 +3722,18 @@ figcaption {
 
 .container-29 {
   flex: 0 auto;
-  margin-top: -46px;
-  margin-bottom: -55px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .image-106 {
   width: 145px;
-  margin-bottom: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-span-5 {
+  color: var(--900);
 }
 
 @media screen and (min-width: 1280px) {
@@ -6521,6 +6527,10 @@ figcaption {
     margin-left: 0;
     padding-left: 20px;
     padding-right: 10px;
+  }
+
+  .text-span-5 {
+    color: var(--900);
   }
 }
 
